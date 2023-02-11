@@ -1,0 +1,36 @@
+{
+  "name": "youtube-scrapper",
+  "version": "1.0.0",
+  "description": "youtube scraping",
+  "main": "index.js",
+  "author": "Teja",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@fabricio-191/youtube": "^0.0.4",
+    "@freetube/yt-comment-scraper": "^6.2.0",
+    "@gonetone/get-youtube-id-by-url": "^1.0.0",
+    "better-ytsr": "^1.1.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "numeral": "^2.0.6",
+    "request": "^2.88.2",
+    "youtube-dlsr": "^2.7.4",
+    "youtube-search-without-api-key": "^1.1.0",
+    "youtube-sr": "^4.3.4",
+    "youtube.land": "^1.0.1",
+    "youtubei": "^1.0.0-rc.6",
+    "youtubei.js": "^2.4.1",
+    "yt-channel-info": "^3.2.1",
+    "yt-getvideos": "^1.1.0",
+    "yt-scraper": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
